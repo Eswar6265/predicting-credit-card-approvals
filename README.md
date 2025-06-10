@@ -1,29 +1,33 @@
-🛠 **Predictive-Maintenance-for-Industrial-Equipment**
-Developed a predictive maintenance system using sensor data to predict failures and optimize machine uptime.
+💳 **Credit-Card-Approval-Prediction**
+Built a credit card approval model to automate decisions using financial and demographic data.
 
-📘 **Project Description**
-Predictive maintenance is crucial in manufacturing to reduce unplanned downtime and extend equipment life. This project explores real-world sensor data from industrial equipment to build a failure prediction system. By engineering features like power, heat index, and overstrain, the model anticipates failure types and helps optimize maintenance schedules. Multiple ML models were tested, tuned, and compared based on multi-class performance.
+📘 Project Description
+This project tackles the real-world challenge of automating credit card approvals. The dataset includes 30,000+ records combining income, education, family status, and credit history. The goal was to predict whether a user would default, and therefore be declined or approved. Feature engineering, outlier handling, scaling, and model tuning were applied to maximize generalization.
 
-**Data Source:**
+**Data Files:**
 
-predictive_maintenance.csv: Includes temperature, torque, rotational speed, tool wear, and failure types.
+application_record.csv: Demographic and financial profile
 
-✅ **Project Tasks**
-Load and explore machine sensor data
+credit_record.csv: Historical credit behavior and payment info
 
-Clean and preprocess continuous variables
+✅** Project Tasks**
+Merge and clean application + credit datasets
 
-Engineer physical features: power, overstrain, heat dissipation
+Engineer age, employment length, and income ratios
 
-Correlation and pairwise analysis of inputs
+Normalize features and drop outliers
 
-Encode and classify 6 failure types
+Label encode categorical variables
 
-Train and tune Random Forest and Gradient Boosting models
+Visualize income vs family size and education vs default
 
-Visualize confusion matrices and evaluate using F1/G-Mean
+Train/test split and handle class imbalance
 
-Compare models and select the best based on macro performance
+Train Logistic Regression and Random Forest
+
+Tune models using GridSearchCV (F1-score optimized)
+
+Evaluate with classification reports and confusion matrices
 
 ### The Jupyter notebook contains the answer (code) for all of the above tasks:
 
