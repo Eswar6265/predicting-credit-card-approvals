@@ -11,7 +11,7 @@ application_record.csv: Demographic and financial profile
 
 credit_record.csv: Historical credit behavior and payment info
 
-✅** Project Tasks**
+✅ **Project Tasks**
 
 Merge and clean application + credit datasets
 
