@@ -1,7 +1,8 @@
 💳 **Credit-Card-Approval-Prediction**
 Built a credit card approval model to automate decisions using financial and demographic data.
 
-📘 Project Description
+📘 **Project Description**
+
 This project tackles the real-world challenge of automating credit card approvals. The dataset includes 30,000+ records combining income, education, family status, and credit history. The goal was to predict whether a user would default, and therefore be declined or approved. Feature engineering, outlier handling, scaling, and model tuning were applied to maximize generalization.
 
 **Data Files:**
@@ -11,6 +12,7 @@ application_record.csv: Demographic and financial profile
 credit_record.csv: Historical credit behavior and payment info
 
 ✅** Project Tasks**
+
 Merge and clean application + credit datasets
 
 Engineer age, employment length, and income ratios
